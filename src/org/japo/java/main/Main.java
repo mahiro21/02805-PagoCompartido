@@ -26,7 +26,7 @@ public class Main {
 
     public static final Scanner SCN
             = new Scanner(System.in, "Windows-1252")
-                    .useLocale(Locale.ENGLISH).useDelimiter("\\s+");
+                    .useLocale(Locale.ENGLISH);
 
     public static void main(String[] args) {
         double importe, comensales, importePersona;
